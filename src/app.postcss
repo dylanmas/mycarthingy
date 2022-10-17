@@ -1,0 +1,20 @@
+/* Write your global styles here, in PostCSS syntax */
+/* @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;500;600;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+@font-face {
+  font-family: brand-medium;
+  src: url('./CircularStd-Medium.otf');
+}
+@font-face {
+  font-family: brand-bold;
+  src: url('./CircularStd-Bold.otf');
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Rubik', system-ui, sans-serif;
+  }
+}
