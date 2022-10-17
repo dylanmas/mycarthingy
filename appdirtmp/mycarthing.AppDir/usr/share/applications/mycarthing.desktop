@@ -1,0 +1,7 @@
+[Desktop Entry]
+Categories=Development;
+Exec=mycarthing
+Icon=mycarthing
+Name=mycarthing
+Terminal=false
+Type=Application
